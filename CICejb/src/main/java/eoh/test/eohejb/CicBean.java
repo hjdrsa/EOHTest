@@ -22,7 +22,7 @@ import javax.persistence.Query;
 @LocalBean
 public class CicBean {
 
-    @PersistenceContext(name = "eoh.test_cicjpa_jar_1.0-SNAPSHOTPU")
+    @PersistenceContext(name = "CicJPA")
     EntityManager em;
     
     static final Logger log = Logger.getLogger("eoh.test.eohejb.CicBean");
